@@ -3,7 +3,7 @@
     <title>undefined-thought</title>
     <link href="https://marco-fp.github.io/blog/feed.xml" rel="self" />
     <link href="https://marco-fp.github.io/blog" />
-    <updated>2017-08-15T00:18:17+02:00</updated>
+    <updated>2017-08-15T00:22:59+02:00</updated>
     <author>
         <name>Marco Fernandez Pranno</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="react-native"/>
             <category term="how-to"/>
 
-        <updated>2017-08-15T00:18:11+02:00</updated>
+        <updated>2017-08-15T00:22:54+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -32,17 +32,13 @@
 <p>(Of course, we could set things up manually, but the configuration of things like hot-reloading and optimized builds is out of the scope of this post)</p>
 <p>To complete this quick guide you'll an Android device and computer with an OS capable of running Node and NPM, connected to the same private network (WLAN/LAN).</p>
 <p>Asuming we already have NPM and Node 6.x installed, follow this steps:</p>
-<ol>
-<li>Install <em>create-react-native-app</em> globally
+<p><strong>1.</strong> Install <em>create-react-native-app</em> globally</p>
 <blockquote>$&gt; npm install -g create-react-native-app</blockquote>
-<br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-09-53.jpg" width="2105" height="400"></li>
-<li>Initialize and setup the foundation of our first application<br>
+<br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-09-53.jpg" width="2105" height="400"><br><strong>2.</strong> Initialize and setup the foundation of our first application<br>
 <blockquote>$&gt; create-react-native-app my-first-app</blockquote>
-<br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-09-43.jpg" width="1957" height="900"><br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-14_23-54-50.jpg" width="1068" height="1026"></li>
-<li>Step into the project's directory and run the project
+<br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-09-43.jpg" width="1957" height="900"><br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-14_23-54-50.jpg" width="1068" height="1026"><br><strong>3.</strong> Step into the project's directory and run the project
 <blockquote>$&gt; cd my-first-app/<br>$&gt; yarnpkg start</blockquote>
-<br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-10-39.jpg" width="941" height="1280"></li>
-</ol>
+<br><img class="post__image--center" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-10-39.jpg" width="941" height="1280">
 <p>At this point we'll have our application initialized and running and a QR code will be displayed on the terminal.</p>
 <p>It's time to switch to our Android devise, and install&nbsp;<a href="https://expo.io/">Expo</a>. This application will allow us to scan the QR code and synchronize our development environment with the devise.</p>
 <p>Our application will load and render on the device, while we can enable a debugging tool to open on a browser in the computer.</p>
