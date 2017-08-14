@@ -3,7 +3,7 @@
     <title>undefined-thought</title>
     <link href="https://marco-fp.github.io/blog/feed.xml" rel="self" />
     <link href="https://marco-fp.github.io/blog" />
-    <updated>2017-08-14T23:30:16+02:00</updated>
+    <updated>2017-08-15T00:13:07+02:00</updated>
     <author>
         <name>Marco Fernandez Pranno</name>
     </author>
@@ -19,15 +19,11 @@
             <category term="react-native"/>
             <category term="how-to"/>
 
-        <updated>2017-08-14T23:30:08+02:00</updated>
+        <updated>2017-08-15T00:13:02+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>React Native lets you create mobile applications using the same design as React, with javascript. The result is a native mobile application, identical to one written in Objective-C or Java.&nbsp;</p>
 <p>To accomplish this, React Native renders components that translate into native implementations.</p>
 <p>In addition, we'll be able to re-use native code whenever we need to, as easily as importing the file and rendering it as a component in our React Native view.<br><br></p>
@@ -39,19 +35,19 @@
 <ol>
 <li>Install <em>create-react-native-app</em> globally
 <blockquote>$&gt; npm install -g create-react-native-app</blockquote>
-</li>
+<br><img class="post__image--wide" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-09-53.jpg" alt="" width="1280" height="244"></li>
 <li>Initialize and setup the foundation of our first application<br>
 <blockquote>$&gt; create-react-native-app my-first-app</blockquote>
-</li>
+<br><img class="post__image--full" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-09-43.jpg" alt="" width="1280" height="590"><br><br><img class="post__image--wide" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-14_23-54-50.jpg" alt="" width="1068" height="1026"><br><br></li>
 <li>Step into the project's directory and run the project
-<blockquote>$&gt; cd my-first-app/<br>$&gt; npm start</blockquote>
-</li>
+<blockquote>$&gt; cd my-first-app/<br>$&gt; yarnpkg start</blockquote>
+<br><img class="post__image--wide" src="https://marco-fp.github.io/blog/media/posts/1/photo_2017-08-15_00-10-39.jpg" alt="" width="941" height="1280"></li>
 </ol>
 <p>At this point we'll have our application initialized and running and a QR code will be displayed on the terminal.</p>
 <p>It's time to switch to our Android devise, and install&nbsp;<a href="https://expo.io/">Expo</a>. This application will allow us to scan the QR code and synchronize our development environment with the devise.</p>
 <p>Our application will load and render on the device, while we can enable a debugging tool to open on a browser in the computer.</p>
-<p>Since we have hot-reloading out of the box, making a change on our project's files will automatically result in a change on the devise.</p>
-<p>&nbsp;</p>
+<p>Since we have hot-reloading out of the box, making a change on our project's files will automatically result in a change on the devise.<br><br></p>
+<hr>
 <p>If you found this guide useful or have any suggestion, please feel free to share it in the comments.</p>
 <p>Happy hacking!</p>
             ]]>
