@@ -3,7 +3,7 @@
     <title>undefined-thought</title>
     <link href="https://marco-fp.github.io/blog/feed.xml" rel="self" />
     <link href="https://marco-fp.github.io/blog" />
-    <updated>2017-08-14T21:43:24+02:00</updated>
+    <updated>2017-08-14T22:05:49+02:00</updated>
     <author>
         <name>Marco Fernandez Pranno</name>
     </author>
@@ -19,13 +19,34 @@
             <category term="react-native"/>
             <category term="how-to"/>
 
-        <updated>2017-08-14T21:29:09+02:00</updated>
+        <updated>2017-08-14T22:05:40+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque risus arcu, posuere ac faucibus ac, consequat sed orci. Nam nec elit at sapien varius sodales non et orci. Phasellus rhoncus ac lacus vitae molestie. Sed eu enim risus. Nulla non rutrum est. Fusce dignissim aliquam nibh, non pharetra magna congue at. Duis vestibulum rhoncus cursus. Etiam sed euismod elit, in blandit eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam vitae vulputate velit, vel hendrerit nisi. Aenean pulvinar pellentesque felis sit amet facilisis. Nam facilisis, diam vitae pretium dignissim, nunc nunc feugiat justo, at dignissim est purus in turpis. Aenean rhoncus metus justo, non sagittis augue facilisis vel. Morbi odio lorem, egestas id orci vel, mattis lobortis leo. Curabitur sit amet neque interdum, varius ligula vitae, sodales nisi.<br><br>Quisque hendrerit nunc vel lorem aliquam bibendum. Aenean dignissim quam eu tortor eleifend viverra. Vivamus augue sapien, maximus non tristique sed, mattis ac odio. Vestibulum dapibus nisi dui, at viverra quam ornare pellentesque. In ornare quis augue at semper. Donec finibus, dui eget sodales sagittis, tellus lectus rutrum est, at varius risus libero vel odio. Nam tristique neque laoreet laoreet sollicitudin. Vivamus lacus felis, viverra ac enim in, congue venenatis ex.<br><br>Morbi quis augue scelerisque, tincidunt nisi vitae, aliquet dolor. Sed malesuada mi sapien, varius pretium turpis accumsan vel. Nunc at mi suscipit mauris placerat semper quis nec magna. Ut facilisis, felis sit amet imperdiet commodo, orci augue gravida arcu, a feugiat nisi lacus sed orci. Aenean consectetur porttitor ligula ut consequat. In sed tristique elit. Proin vitae viverra nunc, eu vulputate lorem.<br>
-<blockquote>Pellentesque fringilla ultricies ligula ut mollis. Nam non dapibus ligula, feugiat vulputate nisl. Aenean convallis ultrices tristique. Curabitur urna augue, accumsan in leo nec, sollicitudin imperdiet nisl. Suspendisse maximus iaculis dignissim. Nam a massa nulla. Vestibulum eu tempus eros. Nunc pharetra mollis lacus vitae molestie. Cras eget libero lorem. Sed ornare vestibulum erat, maximus pulvinar metus hendrerit eget. Aenean maximus urna nec lacus interdum iaculis. Vestibulum gravida nunc quis arcu rhoncus, vel gravida mauris bibendum. Ut ac lorem nibh. Aenean nec purus augue. Vestibulum justo purus, egestas eu volutpat dignissim, ultricies vel enim.</blockquote>
-Sed egestas nec nibh quis pellentesque. In efficitur placerat ex a vehicula. Quisque nec eros at sapien malesuada mollis. Quisque malesuada, justo nec condimentum tincidunt, erat dui euismod est, id suscipit ex elit at leo. Suspendisse dictum ipsum elementum enim malesuada, ac vehicula enim lobortis. Sed pharetra blandit est eget ultrices. Phasellus congue eros nulla, et varius magna tincidunt in. Nunc ac arcu at ex rhoncus vehicula. Proin ligula turpis, elementum a diam ut, ullamcorper venenatis velit. Proin ut ipsum et libero dictum vestibulum ac ac ante. Maecenas posuere porttitor sapien, id placerat risus rhoncus suscipit.
+                <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>React Native lets you create mobile applications using the same design as React, with javascript. The result is a native mobile application, identical to one written in Objective-C or Java.&nbsp;</p>
+<p>To accomplish this, React Native renders components that translate into native implementations.</p>
+<p>In addition, we'll be able to re-use native code whenever we need to, as easily as importing the file and rendering it as a component in our React Native view.<br><br></p>
+<hr>
+<p>To speed things up, we'll be using&nbsp;<a href="https://github.com/react-community/create-react-native-app">create-react-native-app</a>, a library that will let us build an application without any configuration.&nbsp;</p>
+<p>(Of course, we could set things up manually, but the configuration of things like hot-reloading and optimized builds is out of the scope of this post)</p>
+<p>Asuming we already have NPM and Node 6.x installed, follow this steps:</p>
+<ol>
+<li>Install <em>create-react-native-app</em> globally
+<blockquote>$&gt; npm install -g create-react-native-app</blockquote>
+</li>
+<li>Initialize and setup the foundation of our first application<br>
+<blockquote>$&gt; create-react-native-app my-first-app</blockquote>
+</li>
+<li>Step into the project's directory and run the project
+<blockquote>$&gt; cd my-first-app/<br>$&gt; npm start</blockquote>
+</li>
+</ol>
+<p>At this point we'll have our application initialized and running and a QR code will be displayed on the terminal.</p>
             ]]>
         </content>
     </entry>
